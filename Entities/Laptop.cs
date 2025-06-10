@@ -7,6 +7,11 @@ public class Laptop : Device
         return "Apple";
     }
 
+    public override string Hello()
+    {
+        return "Hello Sena";
+    }
+
     public string GetModel()
     {
         var isConnected = IsConnected();

@@ -11,6 +11,8 @@ public class DeviceController : MyFirstApiBaseController
     {
         var laptop = new Laptop();
 
+        var test = laptop.Hello();
+
         var model = laptop.GetBrand();
 
         return Ok(model);
